@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <h1 class="title">🎮 Etch-A-Sketch 🎨</h1>
+
+    <div class="gameboy">
+      <div class="screen">
+        <div class="container"></div>
+      </div>
+
+      <div class="knobs">
+        <div class="knob left"></div>
+        <div class="knob right"></div>
+      </div>
+
+      <div class="controls">
+        <input
+          type="number"
+          id="gridSizeInput"
+          placeholder="Grid size (e.g. 32)"
+          min="1"
+          max="100"
+        />
+        <button class="btn setGrid">Set Grid</button>
+        <button class="btn clearButton">Clear</button>
+        <button class="btn blackColor">Black</button>
+        <button class="btn redColor">Red</button>
+      </div>
+    </div>
+
+    <script src="demo.js"></script>
+  </body>
+</html>
