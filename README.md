@@ -40,14 +40,16 @@ You can “draw” by hovering your cursor over a grid of pixels, choose your co
 **Clone the repository:**
 ```bash
 git clone https://github.com/shauryamohan20/Etch-A-Sketch.git
-Open it locally:
+```
 
+Open it locally:
+```
 bash
 Copy code
 cd etch-a-sketch
 Run the project:
 Just open the index.html file in your browser.
-
+```
 ⚙️ How It Works
 On page load, a 16×16 grid is generated.
 
