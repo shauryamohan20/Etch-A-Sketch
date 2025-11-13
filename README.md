@@ -43,8 +43,7 @@ git clone https://github.com/shauryamohan20/Etch-A-Sketch.git
 ```
 
 Open it locally:
-```
-bash
+```bash
 Copy code
 cd etch-a-sketch
 Run the project:
@@ -62,7 +61,7 @@ The Clear button triggers a “shake” animation on the Etch-A-Sketch frame bef
 Changing the grid size rebuilds the grid dynamically.
 
 🧑‍💻 File Structure
-bash
+```bash
 Copy code
 etch-a-sketch/
 │
@@ -70,6 +69,7 @@ etch-a-sketch/
 ├── app.css           # Styles & animations
 ├── demo.js           # Grid logic & interactions
 └── screenshot.png    # Screenshot of the project
+```
 🏗️ Future Improvements
 🧠 Add rainbow / random color mode
 
